@@ -14,9 +14,10 @@ body {
   position: relative;
 }
 
-.btn{
+.btn {
   border: #17A6B5;
 }
+
 .navbar .nav-link .fas {
   margin-left: 2px;
   transition: transform 0.3s ease;
@@ -150,6 +151,7 @@ h1 .text-warning {
 
 .section1 {
   display: flex;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {
@@ -348,7 +350,6 @@ h1 .text-warning {
 .card-custom img {
   width: 40px;
   height: 40px;
-  margin-bottom: 15px;
 }
 
 .card-custom h5 {
