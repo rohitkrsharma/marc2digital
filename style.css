@@ -14,7 +14,9 @@ body {
   position: relative;
 }
 
-
+.btn{
+  border: #17A6B5;
+}
 .navbar .nav-link .fas {
   margin-left: 2px;
   transition: transform 0.3s ease;
@@ -144,6 +146,10 @@ h1 .text-warning {
 .hero-text .line-5 {
   font-size: 3rem;
   font-weight: bold;
+}
+
+.section1 {
+  display: flex;
 }
 
 @media (max-width: 768px) {
